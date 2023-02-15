@@ -60,7 +60,7 @@ nav {
         box-shadow: 25px 10px 25px
 
 }
-.hobbies {
+ul.square {
     width: 12%;
     float: top left;
     box-sizing: border-box;
