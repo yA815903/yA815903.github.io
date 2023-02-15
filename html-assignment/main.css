@@ -55,15 +55,7 @@ nav {
     float: inline-end;
 }
 
-.index {
-    width: 33%;
-    float:right;
-    list-style: square;
-    box-sizing: border-box;
-    
-}
-
-img{ width:200px; height: 250px;
+.img{ width:200px; height: 250px;
         box-shadow: 25px 10px 25px
 
 }
@@ -73,7 +65,7 @@ img{ width:200px; height: 250px;
     box-sizing: border-box;
     list-style-type: square;
 }
-.note{
+.note .index{
     width: 22%;
     float: right;
     background-color: red;
