@@ -17,7 +17,7 @@ header, footer {
     text-align: center;
     background-color: aqua;
 }
-nav ul {
+nav  {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -28,6 +28,7 @@ nav ul {
 
 nav {
     width: 33%
+    
     
 }
 
@@ -65,9 +66,9 @@ nav {
     box-sizing: border-box;
     list-style-type: square;
 }
-.note .index{
+.note{
     width: 22%;
-    float: right;
+    float: top right;
     background-color: red;
     box-sizing: border-box;
 }
@@ -77,5 +78,8 @@ nav {
     box-sizing: border-box;
     list-style-type: square;
 }
+
+
+
 
     
