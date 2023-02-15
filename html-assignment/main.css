@@ -63,6 +63,7 @@ nav ul{
     width: 33%;
     float:right;
     list-style: square;
+    box-sizing: border-box;
     
 }
 
