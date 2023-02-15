@@ -42,7 +42,7 @@ article {
 }
 
 footer {
-    clear:left;
+    clear:center;
     background-color: aqua;
 }
 body{
@@ -51,13 +51,9 @@ body{
 
 nav ul{
     background-color:navy;
-}
-
-nav ul{
     width: 33%;
     float: inline-end;
 }
-
 
 .index {
     width: 33%;
