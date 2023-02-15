@@ -32,7 +32,7 @@ nav {
 }
 
 nav a{
-    color: rgb(221, 139, 16);
+    background-color: rgb(221, 139, 16);
 
 }
 
@@ -59,8 +59,7 @@ nav ul{
 }
 
 
-.note{
-    background-color: blueviolet;
+.index {
     width: 33%;
     float:right;
     list-style: square;
