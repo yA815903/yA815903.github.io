@@ -49,7 +49,7 @@ body{
     font-size: 18px;
 }
 
-nav ul{
+nav {
     background-color:navy;
     width: 33%;
     float: inline-end;
