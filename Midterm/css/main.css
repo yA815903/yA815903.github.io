@@ -7,7 +7,7 @@
     clear: both;
 }
 body{
-    background-color: bisque;
+    background-color:#aad4cf ;
 
 }
 
@@ -17,16 +17,10 @@ body{
     background-color:white;
 }
 h2::after{
-    content: ">";
+    content: "";
 }
-.Box-modal{
-    background-color:  darkorange;
-    width: 200PX;
-    height: 200px;
-    padding: 20px;
-    border: 5PX solid black;
-    margin: 30px;
-   
+.h2-lonestarfish{
+    background-image: -moz-linear-gradient();
 }
 
 header{
@@ -77,7 +71,7 @@ nav ul li{
     width: 500px;
     height: 400px;
     background-color: aquamarine;
-    /*position: relative;*/
+    position: relative;
 }
 .prop{
     width: 100px;
