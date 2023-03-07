@@ -1,15 +1,15 @@
+/** use the border-box for the border around the text */
 *{
     box-sizing: border-box;
+   
 }
 
 body{
     background-color: #aad4cf;
-    
-
-
+   
 }
 
-.wrapper{
+.wrapper{/** the background was hard to fine a match to the color to the image on brightspace*/
     margin: 100px auto;
     width: 1000px;
     background-color:#abe2dc;
@@ -17,18 +17,57 @@ body{
 h2::after{
     content: "";
 }
-/*contact*/
+
 .contact li {
-    background-color: white;
-    color: black;
+    background-color: black;
     display: inline-block;
     padding: 10px;
     height: 40px;
+}
+
+
+.contentformore{
+    border: 2px solid black;
+    background-color:  #c0e3df;
+    
+} /** use the three nav tag to fit the navbar in the center*/
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #abe2dc;
+}
+.navbar ul{
+    list-style: none;
+    background-color:#abe2dc ;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+   
+    
+
+}
+.navbar li{
+    display: inline-block;
+    border-right: 1px solid black;
+   
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
     
 }
 
-header{
-    position: fixed;
+
+header{ 
+    margin: 0;
+    padding: 0;
     text-align:center; 
     top: 0;
     left: 0;
@@ -36,42 +75,66 @@ header{
     z-index: 0;
 }
 
+#yes-no-maybe{ /**this was hard because the yes no and maybe was hard to move in a row so I left it */
+    display: inline;
+    text-align: right;
+}
+
 .lone-starfish{
     background-color: #aad4cf;
     background-image: url(../image/lone-starfish-wide.jpg);
-    background-position: center;
+    background-position:bottom;
+    text-align: center;
+    text-indent: 5px;
+    font-size: 200%;
     background-repeat: no-repeat;
     color: white;
     padding-top: 90px;
     padding-bottom: 90px;
-   
-    
 }
 
 .life-of-a-starfish{
     background-color: #aad4cf;
     background-image: url(../image/lone-starfish.jpg);
     background-position: left;
-    width: 95px;
-    height: 95px;
-
+    text-indent: 150px;
+    font-size: 100%;
+    width: 150px;
+    height: 150px;
 
     
 }
 .contact{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-size: 14px;
+    justify-content: left;
     box-sizing: border-box;
+    
+
 }
-nav.squre{
+.input-group{
+    margin-bottom: 30px;
+}
+input, textarea{ /** use the textarea tag for the content for more */
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid black;
+    color:white ;
+    background: transparent;
+    font-size: 15px;
+    
+
+}
+
+ul.squre{
     width: 12%;
-    float: top left;
-    box-sizing: border-box;
+    float: left;
+    box-sizing: content-box;
     list-style-type: square;
-}
- nav ul li{
-    display: inline-block;
-    margin-right: 20px;
-    height: 20px;
-    padding: 20px;
 }
 
 .facts-about-starfish h3{
@@ -80,8 +143,20 @@ nav.squre{
    
 }
 
+.button{
+    width: 100%;
+    padding: 0;
+    outline: 0;
+
+    
+
+}
+
 footer{
     background-color:#aad4cf;
-    padding: 20px;
+   width: 100%;
+   text-align: right;
+  
+  
     
 }

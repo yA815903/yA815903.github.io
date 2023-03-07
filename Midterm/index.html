@@ -7,68 +7,90 @@
     <title>Midterm</title>
     <link href="css/main.css"rel="stylesheet">
 </head>
-
-<body>
+       
+<body>/** use this because it was hard to put lone -starfish at the top of the page */
     <section>
     <div class="wrapper">
         <header>
             <div class="lone-starfish">
+
             <h1>lone starfish</h1>
             
-        </header>
-        <section>
+        </header> */ use the ul and li for the navbar/*
         <nav>
+            <div class="navbar">
             <ul>
-               <li><a href="#">home</a></li>
-               <li><a href="#">story</a></li>
-               <li><a href="#">contact</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">story</a></li>
+                <li><a href="#">content</a></li>
             </ul>
         </nav>
-    </section>
-        <section>
+        </header>
+        <section> */add a class for the image with a hight and width/*
             <div class="Life-of-a-Starfish">
             <h2>Life of a Starfish</h2>
             <img src="image/lone-starfish.jpg" height="20%" width="20%">
             <article>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</article>
                 
             </div>
-        </section>
-        <section class="facts about starfish">
-            <h3>Facts About Starfish</h3>
-                <nav class="square">
+        </section> */use the dl for a list and class of square to put it in a row/*
+        <section class="factsaboutstarfish">
+            <h4>Facts About Starfish</h4>
+                <dl class="square">
                     <ul>
                        <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. </li>
                        <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                        <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
                        <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
                     </ul>
-                </nav>
+                </dl>
+               
            
         </section>
-        <h4> Content for more</h4>
+        <h3> Content For More</h3>
+            <div class="contentformore">
+        <form> 
             <div class="content">
-            <label for="your name">your name</label>
-            <input id="yourname" type="text" name="yourname">
             </div>
-            <div>
-                <label for="your email">your email</label>
-                <textarea id="your email"></textarea>
+        
+                
+            <div class="input-group">
+                <label for="Your Name">Your Name</label>
+                <input type="text" id="Your Name" required></input>
+                
             </div>
-            <div>
-                <label for="yes">yes</label>
-                <input type="checkbox" id="yes" name="yes">
-                <label for="no">no</label>
-                <input type="checkbox" id="no" name="no">
-                <label for="maybe">maybe</label>
-                <input type="checkbox" id="maybe" name="maybe">
+            <div class="input-group">
+                <label for="YourEmail">Your Email</label>
+                <input type="text" id="Your Email" required></input>
+                
+            </div>
+            <div class="input-group">
+                <label for="Your Message">Your Message</label>
+                <textarea type="text" id="Your Message" rows="8"></textarea>
+            </div>
 
-            <div>
+            </form> /** this was the hard to put in a line so i just left it like it is */
+            <h3>would you like to vist the starfish</h3>
+              <div class="yes-no-maybe"> 
+                <div>
+                <label for="yes">yes</label>
+                <input type="radio" id="yes" name="yes">
+               </div>
+                <label for="no">no</label>
+                <input type="radio" id="no" name="no">
+                <div>
+                <label for="maybe">maybe</label>
+                <input type="radio" id="maybe" name="maybe"></input>
+                </div>
+            </div>
+
+            <div class="button">
                 <button type="send">send</button>
             </div>
+            </div>
 
-        <footer>
-            <p>&copy;2023 lone starfish</p>
-        </footer>
-        </div>
+            <footer>
+                <p>&copy;2023 lone starfish</p>
+            </footer>
 </body>
 </html>
