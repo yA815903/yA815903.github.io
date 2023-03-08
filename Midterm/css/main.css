@@ -75,9 +75,13 @@ header{
     z-index: 0;
 }
 
-#yes-no-maybe{ /**this was hard because the yes no and maybe was hard to move in a row so I left it */
+#yesnomaybe{ /**this was hard because the yes no and maybe was hard to move in a row so I left it */
     display: inline;
     text-align: right;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
 }
 
 .lone-starfish{
@@ -117,6 +121,7 @@ header{
 }
 .input-group{
     margin-bottom: 30px;
+    
 }
 input, textarea{ /** use the textarea tag for the content for more */
     width: 100%;
@@ -126,6 +131,7 @@ input, textarea{ /** use the textarea tag for the content for more */
     color:white ;
     background: transparent;
     font-size: 15px;
+    resize: none;
     
 
 }
@@ -142,6 +148,7 @@ ul.squre{
     width: 20%;
    
 }
+
 
 .button{
     width: 100%;
