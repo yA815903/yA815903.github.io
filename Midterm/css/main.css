@@ -75,7 +75,7 @@ header{
     z-index: 0;
 }
 
-.inline{ /**this was hard because the yes no and maybe was hard to move in a row so I left it */
+.inline li{ /**this was hard because the yes no and maybe was hard to move in a row so I left it */
         display: inline;
     
 }
