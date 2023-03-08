@@ -75,13 +75,9 @@ header{
     z-index: 0;
 }
 
-#yesnomaybe{ /**this was hard because the yes no and maybe was hard to move in a row so I left it */
-    display: inline;
-    text-align: right;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
+.inline{ /**this was hard because the yes no and maybe was hard to move in a row so I left it */
+        display: inline;
+    
 }
 
 .lone-starfish{
