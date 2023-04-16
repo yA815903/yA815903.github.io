@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
     <link rel="stylesheet" href="css/main.css">
+   
 </head>
 <body>
-<div class="wrapper"><!--this is for the navbar and logo just have to add the color in css-->
+<div class="main-wrapper"><!--this is for the navbar and logo just have to add the color in css-->
               <img src="images/logo.png" alt="logo">
             <div class="topnav">
                 <a class="active" href="#Home">Home</a>
@@ -28,6 +29,10 @@
     <div class="content">
       <h1>Wecome to Three Star Media</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+        <a href="#Content-With-Us" class="notification">
+                            <span>Content With Us</span>
+                          </a>
+
     </div>
 
     <img src="images/about-us.jpg" alt="about-us">
@@ -40,78 +45,117 @@
     <div class="content">
       <h1>Digital</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+        <a href="#Digital" class="notification">
+          <span>Digital</span>
+        </a>
+
     </div>
 
     <img src="images/marketing.jpg" alt="marketing">
     <div class="content">
       <h1>marketing</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+        <a href="#Marketing" class="notification">
+          <span>Marketing</span>
+        </a>
+
     </div>
 
     <img src="images/video.jpg" alt="video">
     <div class="content">
       <h1>Video</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+        <a href="#Video" class="notification">
+          <span>Video</span>
+        </a>
+
     </div>
 
     <img src="images/web.jpg" alt="web">
     <div class="content">
       <h1>Web</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+        <a href="#Web" class="notification">
+          <span>Web</span>
+        </a>
+
     </div>
 
     <img src="images/print.jpg" alt="print">
     <div class="content">
       <h1>print</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+        <a href="#Print" class="notification">
+          <span>Print</span>
+        </a>
+
     </div>
+ </section>
+ <section>
+    <div class=".wrapper"></div>
 
     <img src="images/vision.jpg" alt="vision">
     <div class="content">
       <h1>Vision</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+        <a href="#Learn-More" class="notification">
+          <span>Learn More</span>
+        </a>
+
     </div>
 
     <h4>Our TEAM</h4>
     <img src="images/john.jpg" alt="john">
-    <div class="content">
-      <h1>john Doe</h1>
-      <h2>CEO and Co-owner</h2>
-        <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+    <div class="row">
+          <div class="column">
+            <h1>John doe</h1>
+            <h2>CEO and Co-Owner</h2>
+            <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+          </div>
     </div>
 
     <img src="images/bob.jpg" alt="bob">
-    <div class="content">
-      <h1>Bob Rite</h1>
-      <h2>CEO and Co-owner</h2>
+    <div class="row">
+      <div class="column">
+        <h1>Bob Rite</h1>
+        <h2>CFO and Co-Owner</h2>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+      </div>
+</div>
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <h2>Send us a message</h2>
+      </div>
+      <div class="row">
+        <div class="column">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="message">message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Send">
+          </form>
+         </div>
+      </div>
     </div>
-          <!--add in css a form box -->
-    <h3>Contact Form</h3>
-    <form action="/action_page.php">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    
-      <label for="subject">message</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-      <input type="submit" value="Send">
-   </form>
-
-
         <!--add a box for the time and date in css-->        
     <h3>Hours of operation</h3>
       <table>
         <tr>
+          <th>days</th>
           <th>Monday-Friday</th>
+        <td>hours</td>
         <td>9AM-6PM</td>
        </tr>
         <tr>
+          <th>days</th>
           <th>Saturday-Sunday</th>
+          <td>hours</td>
           <td>Closed</td>
         </tr>
       </table>            
@@ -124,7 +168,7 @@
         
 </div>
    <footer><!--add a footer in css with background color too -->
-       <p>&copy;Three Star media</p>
+       <p>&copy;2023 Three Star media</p>
        <p>All image are taken from unsplash</p>
    </footer>
 </body>
