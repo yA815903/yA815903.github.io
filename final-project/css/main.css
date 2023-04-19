@@ -97,6 +97,11 @@ table {
     background-image:url(../images/logo.png);
     background-size: 100%;
     background-position: center;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    width: 150px;
+    height: 150px;
   }
   /* for phone*/
 @media screen and (min-width:1200px) {
