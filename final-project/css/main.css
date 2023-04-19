@@ -40,12 +40,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-
-@media screen and (min-width:760px) {
-	
 }
-}
-
 .topnav {
   position: relative;
   overflow: hidden;
@@ -91,17 +86,33 @@ table {
 	  float: none;
 	  display: block;
 	}
-	
+}
 	.topnav-centered a {
 	  position: relative;
 	  top: 0;
 	  left: 0;
 	  transform: none;
 	}
+  .logo{
+    background-image:url(../images/logo.png);
+    background-size: 100%;
+    background-position: center;
   }
-  .container{
-	max-width: 1200px;
-  }
+  /* for phone*/
+@media screen and (min-width:1200px) {
+	
+
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 2rem;
+}
+p{
+  font-size: medium;
+}
+}
+
 
   * {
   box-sizing: border-box;
