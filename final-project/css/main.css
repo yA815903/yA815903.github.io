@@ -60,7 +60,7 @@ table {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #c78c06;
   color: black;
 }
 
@@ -97,11 +97,11 @@ table {
     background-image:url(../images/logo.png);
     background-size: 100%;
     background-position: center;
-    background-color: #aad4cf;
-    text-indent: 150px;
-    font-size: 100%;
-    width: 150px;
-    height: 150px;
+    background-color: #c78c06;
+    text-indent: 50px;
+    font-size: 50%;
+    width: 50px;
+    height: 50px;
   }
   /* for phone*/
 @media screen and (min-width:1200px) {
@@ -115,6 +115,10 @@ h2{
 }
 p{
   font-size: medium;
+}
+.wrapper{
+  margin: auto;
+  max-width: 1200px;
 }
 }
 
