@@ -93,9 +93,10 @@ table {
 	  left: 0;
 	  transform: none;
 	}
+  
   .logo{
     background-image:url(../images/logo.png);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-color: #c78c06;
     text-indent: 50px;
@@ -103,6 +104,84 @@ table {
     width: 50px;
     height: 50px;
   }
+  .welcome{
+    background-image:url(../images/main-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #c78c06;
+    text-indent: 50px;
+    font-size: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .about-us{
+    background-image:url(../images/about-us.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #c78c06;
+    text-indent: 50px;
+    font-size: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .digital{
+    background-image:url(../images/digital.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #c78c06;
+    text-indent: 50px;
+    font-size: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .marketing{
+    background-image:url(../images/marketing.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #c78c06;
+    font-size: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .video{
+    background-image:url(../images/video.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #c78c06;
+    font-size: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .web{
+    background-image:url(../images/web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #c78c06;
+    font-size: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .print{
+    background-image:url(../images/print.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #c78c06;
+    font-size: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .vision{
+    background-image:url(../images/vision.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #c78c06;
+    font-size: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+
+
   /* for phone*/
 @media screen and (min-width:1200px) {
 	
