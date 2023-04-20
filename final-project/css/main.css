@@ -50,7 +50,10 @@ table {
   overflow: hidden;
   background-color: #333;
 }
-
+body{
+  background-color:white;
+ 
+}
 
 
 
@@ -97,74 +100,109 @@ table {
 	  left: 0;
 	  transform: none;
 	}
-  
+  /** the background was hard to fine a match to the color to the image on brightspace*/
   .logo{
     background-image:url(../images/logo.png);
-    height: 15vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh
     
   }
   .welcome{
     background-image:url(../images/main-banner.jpg);
-    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh
   }
   .about-us{
     background-image:url(../images/about-us.jpg);
-    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh
   }
   .digital{
     background-image:url(../images/digital.jpg);
-    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh;
   }
   .marketing{
-    background-image:url(../images/marketing.jpg);
-    height: 90vh;
+    background-image:url(../images/web.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh;
   }
   .video{
-    background-image:url(../images/video.jpg);
-    height: 90vh;
+    background-image:url(../images/web.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh;
   }
   .web{
     background-image:url(../images/web.jpg);
-    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh;
   }
   .print{
     background-image:url(../images/print.jpg);
-    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh
   }
   .vision{
     background-image:url(../images/vision.jpg);
-    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh
   }
   .john{
     background-image:url(../images/john.jpg);
-    height: 90px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh;
   }
   .bob{
     background-image:url(../images/bob.jpg);
-    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #aad4cf;
+    text-indent: 150px;
+    font-size: 100%;
+    height: 150vh;
   }
+  
+
   
   
 
@@ -180,7 +218,7 @@ h2{
   font-size: 2rem;
 }
 p{
-  font-size: medium;
+  font-size: 3rem;
 }
 .wrapper{
   margin: auto;
@@ -199,7 +237,7 @@ p{
   p{
     font-size: 1rem;
   }
-
+/* don't know  what when wrong with the gird and flex*/
 }
 .welcome button{
   border-radius: 30px;
@@ -211,7 +249,7 @@ p{
   border: none;
 }
 
-
+/*all button on the website*/
 .digital button{
   border-radius: 30px;
   color: white;
@@ -285,8 +323,37 @@ p{
 .contact-contaner .contact-box:nth-child(2){
   order:1;
 }
+/*the form was the easy thing in the website*/
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
 
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
 
+form.example button:hover {
+  background: white;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
   
 
@@ -335,12 +402,12 @@ input[type=submit]:hover {
 }
 
 
-@media screen and (max-width: 600px) {
+ 
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
-}
+
 
 .table {
   box-sizing: border-box;
@@ -354,4 +421,9 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
+} /*the footer was also the easy thing to put in the website*/
+footer{
+  background-color:#c78c06;
+ width: 100%;
+ text-align: left;
 }
