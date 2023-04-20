@@ -52,7 +52,7 @@ table {
 
 .topnav a {
   float: left;
-  color: #c78c06;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -96,89 +96,72 @@ table {
   
   .logo{
     background-image:url(../images/logo.png);
+    height: 10vh;
     background-size: cover;
-    background-position: center;
-    background-color: #c78c06;
-    text-indent: 50px;
-    font-size: 50%;
-    width: 50px;
-    height: 50px;
+    background-repeat: no-repeat;
+    
   }
   .welcome{
     background-image:url(../images/main-banner.jpg);
+    height: 90vh;
     background-size: cover;
-    background-position: center;
-    background-color: #c78c06;
-    text-indent: 50px;
-    font-size: 50%;
-    width: 150px;
-    height: 150px;
+    background-repeat: no-repeat;
   }
   .about-us{
     background-image:url(../images/about-us.jpg);
+    height: 90vh;
     background-size: cover;
-    background-position: center;
-    background-color: #c78c06;
-    text-indent: 50px;
-    font-size: 50%;
-    width: 150px;
-    height: 150px;
+    background-repeat: no-repeat;
   }
   .digital{
     background-image:url(../images/digital.jpg);
+    height: 90vh;
     background-size: cover;
-    background-position: center;
-    background-color: #c78c06;
-    text-indent: 50px;
-    font-size: 50%;
-    width: 150px;
-    height: 150px;
+    background-repeat: no-repeat;
   }
   .marketing{
     background-image:url(../images/marketing.jpg);
+    height: 90vh;
     background-size: cover;
-    background-position: center;
-    background-color: #c78c06;
-    font-size: 50%;
-    width: 150px;
-    height: 150px;
+    background-repeat: no-repeat;
   }
   .video{
     background-image:url(../images/video.jpg);
+    height: 90vh;
     background-size: cover;
-    background-position: center;
-    background-color: #c78c06;
-    font-size: 50%;
-    width: 150px;
-    height: 150px;
+    background-repeat: no-repeat;
   }
   .web{
     background-image:url(../images/web.jpg);
+    height: 90vh;
     background-size: cover;
-    background-position: center;
-    background-color: #c78c06;
-    font-size: 50%;
-    width: 150px;
-    height: 150px;
+    background-repeat: no-repeat;
   }
   .print{
     background-image:url(../images/print.jpg);
+    height: 90vh;
     background-size: cover;
-    background-position: center;
-    background-color: #c78c06;
-    font-size: 50%;
-    width: 150px;
-    height: 150px;
+    background-repeat: no-repeat;
   }
   .vision{
     background-image:url(../images/vision.jpg);
+    height: 90vh;
     background-size: cover;
-    background-position: center;
-    background-color: #c78c06;
-    font-size: 50%;
-    width: 150px;
-    height: 150px;
+    background-repeat: no-repeat;
   }
+  .john{
+    background-image:url(../images/john.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .bob{
+    background-image:url(../images/bob.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
   
 
 
@@ -200,6 +183,109 @@ p{
   max-width: 1200px;
 }
 }
+/*for the mac or pc*/
+@media screen and (min-width:760px) {
+  h1{
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  .wrapper{
+    align-items: center;
+    justify-content: center;
+    margin: 27px;
+    margin-right: 27px;
+  }
+}
+.welcome button{
+  border-radius: 30px;
+  color: white;
+  background-color: #c78c06;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  border: none;
+}
+
+
+.digital button{
+  border-radius: 30px;
+  color: white;
+  background-color:black;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  border: none;
+}
+.marketing button{
+  border-radius: 30px;
+  color: white;
+  background-color:black;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  border: none;
+}
+.video button{
+  border-radius: 30px;
+  color: white;
+  background-color:black;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  border: none;
+}
+.web button{
+  border-radius: 30px;
+  color: white;
+  background-color:black;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  border: none;
+}
+.print button{
+  border-radius: 30px;
+  color: white;
+  background-color:black;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  border: none;
+}
+.vision button{
+  border-radius: 30px;
+  color: white;
+  background-color:black;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  border: none;
+}
+/* our team*/
+.team-contaner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-self: center;
+}
+.team-contaner .teambox:nth-child(3){
+  order: 1;
+}
+.textboxs{
+  display: flex;
+  flex-direction: column;
+}
+.contact-contaner{
+  display: flex;
+}
+.contact-contaner .contact-box:nth-child(2){
+  order:1;
+}
+
 
 
   * {
