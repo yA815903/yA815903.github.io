@@ -41,6 +41,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.wrapper{
+  margin: auto;
+  max-width: 1200px;
+}
 .topnav {
   position: relative;
   overflow: hidden;
@@ -96,7 +100,7 @@ table {
   
   .logo{
     background-image:url(../images/logo.png);
-    height: 10vh;
+    height: 15vh;
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -151,13 +155,13 @@ table {
   }
   .john{
     background-image:url(../images/john.jpg);
-    height: 90vh;
+    height: 90px;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .bob{
     background-image:url(../images/bob.jpg);
-    height: 90vh;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -182,6 +186,7 @@ p{
   margin: auto;
   max-width: 1200px;
 }
+
 }
 /*for the mac or pc*/
 @media screen and (min-width:760px) {
@@ -194,12 +199,7 @@ p{
   p{
     font-size: 1rem;
   }
-  .wrapper{
-    align-items: center;
-    justify-content: center;
-    margin: 27px;
-    margin-right: 27px;
-  }
+
 }
 .welcome button{
   border-radius: 30px;
@@ -288,9 +288,8 @@ p{
 
 
 
-  * {
-  box-sizing: border-box;
-}
+  
+
 
 input[type=text], select, textarea {
   width: 100%;
